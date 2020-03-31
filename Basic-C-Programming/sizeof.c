@@ -9,6 +9,5 @@ int main(){
     printf("sizeof(float) = %d bytes \n",sizeof(float));
     printf("sizeof(double) = %d bytes \n",sizeof(double));
     printf("sizeof(long double) = %d bytes \n",sizeof(long double));
-
     return 0;
 }
