@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <conio.h>
+#include <math.h>
 
 int isPrime(int a)
 {
@@ -27,5 +27,21 @@ int main()
     }else{
         printf("%d is a prime number",a);
     }
+
+    printf("\n********** FASTER WAY *******************\n");
+    int i;
+    float sqrt_a = sqrt(a);
+    for(i=2; i<sqrt_a; i++){
+        if(a%i==0)
+            break;
+    }
+
+    if(i>sqrt_a){        
+        printf("%d is a prime number",a);
+    }else{
+        printf("%d is not a prime number",a);
+    }
+
+
     return 0;
 }
