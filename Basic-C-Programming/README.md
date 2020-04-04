@@ -1,1 +1,0 @@
-# Applied-Interview-Preparation
