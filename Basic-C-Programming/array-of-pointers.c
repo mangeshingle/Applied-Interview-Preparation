@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 int main(){
     int *pa[3];
     int a=5, b=10, c=15;
@@ -13,6 +14,6 @@ int main(){
         printf("\npa[%d]=%p\t",i, pa[i]);
         printf("*pa[%d]=%d",i, *pa[i]);
     }
-
+    printf("\n");
     return 0;
 }
